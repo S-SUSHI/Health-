@@ -1,1 +1,6 @@
-/* postcss.config.js 正确示例内容 */
+module.exports = {
+  plugins: {
+    tailwindcss: {},
+    autoprefixer: {},
+  },
+};

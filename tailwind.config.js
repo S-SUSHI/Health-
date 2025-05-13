@@ -1,1 +1,7 @@
-/* tailwind.config.js 正确示例内容 */
+module.exports = {
+  content: ['./index.html', './src/**/*.{js,jsx,ts,tsx}'],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+};
